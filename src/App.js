@@ -127,7 +127,7 @@ const App = () => {
         <ReceiveBlock howWas="Como era el traduccion?" setNoReceiveText="Try rephrasing your text!" setReceived={setLostRateReceived} setAlert={setHelperAlert} setReceivedText="They understood!" headerText="ÉL DIJO:" defaultText={<div>Tengo direcciones para usted. <p className="translated">{helperTranslated}</p></div>}/>
         </div>
       </div>
-      <a href="https://ufl.qualtrics.com/jfe/form/SV_bd8KDgTOgQC2Pqu" target="_blank"><IonButton className='external2'>Take survey!</IonButton></a>
+      <a href="https://ufl.qualtrics.com/jfe/form/SV_cvHPHdmjbks9YVg" target="_blank"><IonButton className='external2'>Take survey!</IonButton></a>
       <div className='helper-user-container'>
         <Header />
         {helperAlert && (

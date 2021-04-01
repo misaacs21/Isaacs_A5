@@ -229,7 +229,7 @@ const RaterAwait = ({received}) => {
 const IconAndBubble = ({iconType, translate, input, defaultText, text}) => {
   return (
   <div className="talk-block">
-        {iconType ? (<div className="icon" onClick={() => translate(input)}>{talking}<p>Presione para enviar</p></div>) : null}
+        {iconType ? (<div className="icon" onClick={() => translate(input)}>{talking}<p>Press to send</p></div>) : null}
         <div className="speech-bubble">
           <p>{defaultText} {text}</p>
         </div>
